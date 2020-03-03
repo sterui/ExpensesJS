@@ -1,0 +1,25 @@
+{
+  "name": "expenses",
+  "version": "1.0.0",
+  "description": "Backend for ExpenseJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterui/ExpensesJS.git"
+  },
+  "author": "Stefano Cingari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterui/ExpensesJS/issues"
+  },
+  "homepage": "https://github.com/sterui/ExpensesJS#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
